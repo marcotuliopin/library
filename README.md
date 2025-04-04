@@ -1,5 +1,7 @@
 [![tests](https://github.com/andrehora/library/actions/workflows/tests.yml/badge.svg)](https://github.com/andrehora/library/actions/workflows/tests.yml)
 
+---
+
 # Library refactoring example
 
 Neste exercício, iremos refatorar um sistema simples para aluguel de livros de uma biblioteca.
