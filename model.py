@@ -1,3 +1,19 @@
+class Price:
+    def get_charge(self, days_rented: int) -> float:
+        pass
+
+    def get_frequent_renter_points(self, days_rented: int) -> int:
+        pass
+
+class RegulaPrice(Price):
+    pass
+
+class NewReleasePrice(Price):
+    pass
+
+class ChildrenPrice(Price):
+    pass
+
 class Book:
 
     REGULAR: int = 0
@@ -40,7 +56,6 @@ class Rental:
         return self.book.get_frequent_renter_points(days_rented=self.days_rented)
 
 class Client:
-
     def __init__(self, name: str):
         self.name = name
         self._rentals = []
